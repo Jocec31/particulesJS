@@ -1,0 +1,19 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #333;
+}
+#canvas {
+	width: 99%;
+	height: 99%;
+	position: absolute;
+	background-color: #f1f1f1;
+	border: 2px outset #f1f1f1;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+}
